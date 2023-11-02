@@ -1,0 +1,6 @@
+.env
+.venv
+.idea
+.python-version
+__pycache__/
+config.json

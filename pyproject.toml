@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "spotify-client"
+version = "0.1.0"
+description = ""
+authors = ["Alex Rozum <rozumalex@gmail.com>"]
+readme = "README.md"
+license = "MIT"
+packages = []
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.12"
+spotdl = "^4.2.1"
+python-dotenv = "^1.0.0"
+orjson = "^3.9.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
